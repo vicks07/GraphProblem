@@ -34,9 +34,10 @@ async function main() {
         colInfo.forEach(col => {
             const relations = col.relations;
             if(relations){
+                //create a node for the parent
                 const node = new Node(`${dbName}.${doc._id}`, col.columnName, col.path, doc._id);
                 if(!obj.hasOwnProperty(`${node.source}.${node.columnName}`)) {
-                    obj[`${node.source}.${node.columnName}`] = node;
+                    obj[`${node.source}.${node.columnName}`] = node; // an object to keep track of the nodes that are created.
                     const relation = [];
                     relations.forEach(rel => {
                         const relationColName = rel.column.split('|')[1];
@@ -48,8 +49,8 @@ async function main() {
                         } else {
                             node1 = obj[`${rel.source}.${relationColName}`]
                         }
-                        node.connect(node1);
-                        relation.push(node1);
+                        node.connect(node1); // connect the child with the parent.
+                        relation.push(node1); // create separate node for the children
                     });
                     graph.addToGraph(node);
                     graph.addToGraph(...relation);
@@ -58,10 +59,9 @@ async function main() {
         });        
     });
 
-    console.log(JSON.stringify(graph));
+    // console.log(JSON.stringify(graph));
 
-    fs.writeFileSync(`${new Date()}.json`, JSON.stringify(graph), 'utf8');
-    
+    fs.writeFileSync(`${new Date()}.json`, JSON.stringify(graph), 'utf8'); // create the structure in a file
 
     //Tests to check if the relations are mapped
     console.log(graph.isRelated('mysql_111343282.financial.disp.account_id', 'mysql_111343282.financial.loan.duration')); //true
