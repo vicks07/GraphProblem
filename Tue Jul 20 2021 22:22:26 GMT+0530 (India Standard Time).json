@@ -1,0 +1,1076 @@
+{
+  "nodes": [
+    {
+      "source": "mysql_111343282.financial.disp",
+      "columnName": "account_id",
+      "columnPath": "root|account_id",
+      "documentId": "financial.disp",
+      "edges": [
+        {
+          "source": "mysql_111343282.financial.order",
+          "columnName": "account_id",
+          "columnPath": "root|account_id",
+          "documentId": "financial.order",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.card",
+          "columnName": "card_id",
+          "columnPath": "root|card_id",
+          "documentId": "financial.card",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.card",
+          "columnName": "disp_id",
+          "columnPath": "root|disp_id",
+          "documentId": "financial.card",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "trans_id",
+          "columnPath": "root|trans_id",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "amount",
+          "columnPath": "root|amount",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "account_id",
+          "columnPath": "root|account_id",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "balance",
+          "columnPath": "root|balance",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.loan",
+          "columnName": "duration",
+          "columnPath": "root|duration",
+          "documentId": "financial.loan",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.loan",
+          "columnName": "account_id",
+          "columnPath": "root|account_id",
+          "documentId": "financial.loan",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.loan",
+          "columnName": "loan_id",
+          "columnPath": "root|loan_id",
+          "documentId": "financial.loan",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.account",
+          "columnName": "district_id",
+          "columnPath": "root|district_id",
+          "documentId": "financial.account",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.account",
+          "columnName": "account_id",
+          "columnPath": "root|account_id",
+          "documentId": "financial.account",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.client",
+          "columnName": "district_id",
+          "columnPath": "root|district_id",
+          "documentId": "financial.client",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.client",
+          "columnName": "client_id",
+          "columnPath": "root|client_id",
+          "documentId": "financial.client",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.financial.order",
+      "columnName": "account_id",
+      "columnPath": "root|account_id",
+      "documentId": "financial.order",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.card",
+      "columnName": "card_id",
+      "columnPath": "root|card_id",
+      "documentId": "financial.card",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.card",
+      "columnName": "disp_id",
+      "columnPath": "root|disp_id",
+      "documentId": "financial.card",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "trans_id",
+      "columnPath": "root|trans_id",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "amount",
+      "columnPath": "root|amount",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "account_id",
+      "columnPath": "root|account_id",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "balance",
+      "columnPath": "root|balance",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.loan",
+      "columnName": "duration",
+      "columnPath": "root|duration",
+      "documentId": "financial.loan",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.loan",
+      "columnName": "account_id",
+      "columnPath": "root|account_id",
+      "documentId": "financial.loan",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.loan",
+      "columnName": "loan_id",
+      "columnPath": "root|loan_id",
+      "documentId": "financial.loan",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.account",
+      "columnName": "district_id",
+      "columnPath": "root|district_id",
+      "documentId": "financial.account",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.account",
+      "columnName": "account_id",
+      "columnPath": "root|account_id",
+      "documentId": "financial.account",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.client",
+      "columnName": "district_id",
+      "columnPath": "root|district_id",
+      "documentId": "financial.client",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.client",
+      "columnName": "client_id",
+      "columnPath": "root|client_id",
+      "documentId": "financial.client",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.disp",
+      "columnName": "disp_id",
+      "columnPath": "root|disp_id",
+      "documentId": "financial.disp",
+      "edges": [
+        {
+          "source": "mysql_111343282.financial.order",
+          "columnName": "account_id",
+          "columnPath": "root|account_id",
+          "documentId": "financial.order",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.card",
+          "columnName": "card_id",
+          "columnPath": "root|card_id",
+          "documentId": "financial.card",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.card",
+          "columnName": "disp_id",
+          "columnPath": "root|disp_id",
+          "documentId": "financial.card",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "trans_id",
+          "columnPath": "root|trans_id",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "amount",
+          "columnPath": "root|amount",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "account_id",
+          "columnPath": "root|account_id",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "balance",
+          "columnPath": "root|balance",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.loan",
+          "columnName": "account_id",
+          "columnPath": "root|account_id",
+          "documentId": "financial.loan",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.loan",
+          "columnName": "loan_id",
+          "columnPath": "root|loan_id",
+          "documentId": "financial.loan",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.account",
+          "columnName": "district_id",
+          "columnPath": "root|district_id",
+          "documentId": "financial.account",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.account",
+          "columnName": "account_id",
+          "columnPath": "root|account_id",
+          "documentId": "financial.account",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.client",
+          "columnName": "district_id",
+          "columnPath": "root|district_id",
+          "documentId": "financial.client",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.client",
+          "columnName": "client_id",
+          "columnPath": "root|client_id",
+          "documentId": "financial.client",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.financial.order",
+      "columnName": "account_id",
+      "columnPath": "root|account_id",
+      "documentId": "financial.order",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.card",
+      "columnName": "card_id",
+      "columnPath": "root|card_id",
+      "documentId": "financial.card",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.card",
+      "columnName": "disp_id",
+      "columnPath": "root|disp_id",
+      "documentId": "financial.card",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "trans_id",
+      "columnPath": "root|trans_id",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "amount",
+      "columnPath": "root|amount",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "account_id",
+      "columnPath": "root|account_id",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "balance",
+      "columnPath": "root|balance",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.loan",
+      "columnName": "account_id",
+      "columnPath": "root|account_id",
+      "documentId": "financial.loan",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.loan",
+      "columnName": "loan_id",
+      "columnPath": "root|loan_id",
+      "documentId": "financial.loan",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.account",
+      "columnName": "district_id",
+      "columnPath": "root|district_id",
+      "documentId": "financial.account",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.account",
+      "columnName": "account_id",
+      "columnPath": "root|account_id",
+      "documentId": "financial.account",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.client",
+      "columnName": "district_id",
+      "columnPath": "root|district_id",
+      "documentId": "financial.client",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.client",
+      "columnName": "client_id",
+      "columnPath": "root|client_id",
+      "documentId": "financial.client",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.disp",
+      "columnName": "client_id",
+      "columnPath": "root|client_id",
+      "documentId": "financial.disp",
+      "edges": [
+        {
+          "source": "mysql_111343282.financial.order",
+          "columnName": "account_id",
+          "columnPath": "root|account_id",
+          "documentId": "financial.order",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.card",
+          "columnName": "card_id",
+          "columnPath": "root|card_id",
+          "documentId": "financial.card",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.card",
+          "columnName": "disp_id",
+          "columnPath": "root|disp_id",
+          "documentId": "financial.card",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "trans_id",
+          "columnPath": "root|trans_id",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "amount",
+          "columnPath": "root|amount",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "account_id",
+          "columnPath": "root|account_id",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "balance",
+          "columnPath": "root|balance",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.loan",
+          "columnName": "account_id",
+          "columnPath": "root|account_id",
+          "documentId": "financial.loan",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.loan",
+          "columnName": "loan_id",
+          "columnPath": "root|loan_id",
+          "documentId": "financial.loan",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.account",
+          "columnName": "district_id",
+          "columnPath": "root|district_id",
+          "documentId": "financial.account",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.account",
+          "columnName": "account_id",
+          "columnPath": "root|account_id",
+          "documentId": "financial.account",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.client",
+          "columnName": "district_id",
+          "columnPath": "root|district_id",
+          "documentId": "financial.client",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.client",
+          "columnName": "client_id",
+          "columnPath": "root|client_id",
+          "documentId": "financial.client",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.financial.order",
+      "columnName": "account_id",
+      "columnPath": "root|account_id",
+      "documentId": "financial.order",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.card",
+      "columnName": "card_id",
+      "columnPath": "root|card_id",
+      "documentId": "financial.card",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.card",
+      "columnName": "disp_id",
+      "columnPath": "root|disp_id",
+      "documentId": "financial.card",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "trans_id",
+      "columnPath": "root|trans_id",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "amount",
+      "columnPath": "root|amount",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "account_id",
+      "columnPath": "root|account_id",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "balance",
+      "columnPath": "root|balance",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.loan",
+      "columnName": "account_id",
+      "columnPath": "root|account_id",
+      "documentId": "financial.loan",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.loan",
+      "columnName": "loan_id",
+      "columnPath": "root|loan_id",
+      "documentId": "financial.loan",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.account",
+      "columnName": "district_id",
+      "columnPath": "root|district_id",
+      "documentId": "financial.account",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.account",
+      "columnName": "account_id",
+      "columnPath": "root|account_id",
+      "documentId": "financial.account",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.client",
+      "columnName": "district_id",
+      "columnPath": "root|district_id",
+      "documentId": "financial.client",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.client",
+      "columnName": "client_id",
+      "columnPath": "root|client_id",
+      "documentId": "financial.client",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.order",
+      "columnName": "account_to",
+      "columnPath": "root|account_to",
+      "documentId": "financial.order",
+      "edges": [
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "account",
+          "columnPath": "root|account",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "trans_id",
+          "columnPath": "root|trans_id",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "balance",
+          "columnPath": "root|balance",
+          "documentId": "financial.trans",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "account",
+      "columnPath": "root|account",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "trans_id",
+      "columnPath": "root|trans_id",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "balance",
+      "columnPath": "root|balance",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.order",
+      "columnName": "order_id",
+      "columnPath": "root|order_id",
+      "documentId": "financial.order",
+      "edges": [
+        {
+          "source": "mysql_111343282.imdb.actors",
+          "columnName": "id",
+          "columnPath": "root|id",
+          "documentId": "imdb.actors",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "trans_id",
+          "columnPath": "root|trans_id",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "amount",
+          "columnPath": "root|amount",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "balance",
+          "columnPath": "root|balance",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.loan",
+          "columnName": "amount",
+          "columnPath": "root|amount",
+          "documentId": "financial.loan",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.imdb.roles",
+          "columnName": "actor_id",
+          "columnPath": "root|actor_id",
+          "documentId": "imdb.roles",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.imdb.actors",
+      "columnName": "id",
+      "columnPath": "root|id",
+      "documentId": "imdb.actors",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "trans_id",
+      "columnPath": "root|trans_id",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "amount",
+      "columnPath": "root|amount",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "balance",
+      "columnPath": "root|balance",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.loan",
+      "columnName": "amount",
+      "columnPath": "root|amount",
+      "documentId": "financial.loan",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.imdb.roles",
+      "columnName": "actor_id",
+      "columnPath": "root|actor_id",
+      "documentId": "imdb.roles",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.order",
+      "columnName": "amount",
+      "columnPath": "root|amount",
+      "documentId": "financial.order",
+      "edges": [
+        {
+          "source": "mysql_111343282.imdb.directors_genres",
+          "columnName": "prob",
+          "columnPath": "root|prob",
+          "documentId": "imdb.directors_genres",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.loan",
+          "columnName": "payments",
+          "columnPath": "root|payments",
+          "documentId": "financial.loan",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.imdb.directors_genres",
+      "columnName": "prob",
+      "columnPath": "root|prob",
+      "documentId": "imdb.directors_genres",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.loan",
+      "columnName": "payments",
+      "columnPath": "root|payments",
+      "documentId": "financial.loan",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.order",
+      "columnName": "k_symbol",
+      "columnPath": "root|k_symbol",
+      "documentId": "financial.order",
+      "edges": [
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "k_symbol",
+          "columnPath": "root|k_symbol",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.imdb.roles",
+          "columnName": "role",
+          "columnPath": "root|role",
+          "documentId": "imdb.roles",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "k_symbol",
+      "columnPath": "root|k_symbol",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.imdb.roles",
+      "columnName": "role",
+      "columnPath": "root|role",
+      "documentId": "imdb.roles",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.order",
+      "columnName": "bank_to",
+      "columnPath": "root|bank_to",
+      "documentId": "financial.order",
+      "edges": [
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "bank",
+          "columnPath": "root|bank",
+          "documentId": "financial.trans",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "bank",
+      "columnPath": "root|bank",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.client",
+      "columnName": "gender",
+      "columnPath": "root|gender",
+      "documentId": "financial.client",
+      "edges": [
+        {
+          "source": "mysql_111343282.imdb.actors",
+          "columnName": "gender",
+          "columnPath": "root|gender",
+          "documentId": "imdb.actors",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.imdb.actors",
+      "columnName": "gender",
+      "columnPath": "root|gender",
+      "documentId": "imdb.actors",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.imdb.movies_genres",
+      "columnName": "genre",
+      "columnPath": "root|genre",
+      "documentId": "imdb.movies_genres",
+      "edges": [
+        {
+          "source": "mysql_111343282.imdb.directors_genres",
+          "columnName": "genre",
+          "columnPath": "root|genre",
+          "documentId": "imdb.directors_genres",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.imdb.directors_genres",
+      "columnName": "genre",
+      "columnPath": "root|genre",
+      "documentId": "imdb.directors_genres",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.imdb.movies_genres",
+      "columnName": "movie_id",
+      "columnPath": "root|movie_id",
+      "documentId": "imdb.movies_genres",
+      "edges": [
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "trans_id",
+          "columnPath": "root|trans_id",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.imdb.roles",
+          "columnName": "movie_id",
+          "columnPath": "root|movie_id",
+          "documentId": "imdb.roles",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "trans_id",
+      "columnPath": "root|trans_id",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.imdb.roles",
+      "columnName": "movie_id",
+      "columnPath": "root|movie_id",
+      "documentId": "imdb.roles",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.imdb.directors_genres",
+      "columnName": "director_id",
+      "columnPath": "root|director_id",
+      "documentId": "imdb.directors_genres",
+      "edges": [
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "trans_id",
+          "columnPath": "root|trans_id",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "amount",
+          "columnPath": "root|amount",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "balance",
+          "columnPath": "root|balance",
+          "documentId": "financial.trans",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "trans_id",
+      "columnPath": "root|trans_id",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "amount",
+      "columnPath": "root|amount",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "balance",
+      "columnPath": "root|balance",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.imdb.actors",
+      "columnName": "film_count",
+      "columnPath": "root|film_count",
+      "documentId": "imdb.actors",
+      "edges": [
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "amount",
+          "columnPath": "root|amount",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.trans",
+          "columnName": "account_id",
+          "columnPath": "root|account_id",
+          "documentId": "financial.trans",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.account",
+          "columnName": "district_id",
+          "columnPath": "root|district_id",
+          "documentId": "financial.account",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.financial.client",
+          "columnName": "district_id",
+          "columnPath": "root|district_id",
+          "documentId": "financial.client",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "amount",
+      "columnPath": "root|amount",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.trans",
+      "columnName": "account_id",
+      "columnPath": "root|account_id",
+      "documentId": "financial.trans",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.account",
+      "columnName": "district_id",
+      "columnPath": "root|district_id",
+      "documentId": "financial.account",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.financial.client",
+      "columnName": "district_id",
+      "columnPath": "root|district_id",
+      "documentId": "financial.client",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.imdb.actors",
+      "columnName": "first_name",
+      "columnPath": "root|first_name",
+      "documentId": "imdb.actors",
+      "edges": [
+        {
+          "source": "mysql_111343282.imdb.roles",
+          "columnName": "role",
+          "columnPath": "root|role",
+          "documentId": "imdb.roles",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.imdb.roles",
+      "columnName": "role",
+      "columnPath": "root|role",
+      "documentId": "imdb.roles",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.imdb.actors",
+      "columnName": "last_name",
+      "columnPath": "root|last_name",
+      "documentId": "imdb.actors",
+      "edges": [
+        {
+          "source": "mysql_111343282.imdb.directors_genres",
+          "columnName": "genre",
+          "columnPath": "root|genre",
+          "documentId": "imdb.directors_genres",
+          "edges": []
+        },
+        {
+          "source": "mysql_111343282.imdb.roles",
+          "columnName": "role",
+          "columnPath": "root|role",
+          "documentId": "imdb.roles",
+          "edges": []
+        }
+      ]
+    },
+    {
+      "source": "mysql_111343282.imdb.directors_genres",
+      "columnName": "genre",
+      "columnPath": "root|genre",
+      "documentId": "imdb.directors_genres",
+      "edges": []
+    },
+    {
+      "source": "mysql_111343282.imdb.roles",
+      "columnName": "role",
+      "columnPath": "root|role",
+      "documentId": "imdb.roles",
+      "edges": []
+    }
+  ]
+}
